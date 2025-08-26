@@ -1,5 +1,8 @@
 {
   "name": "vanlife-app",
+  "version": "1.0.0",
+  "description": "A React application for van life enthusiasts.",
+  "homepage": "https://abdelrahmanmahjob.github.io/Vanlife-App/",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -9,6 +12,7 @@
     "deploy": "npx gh-pages -d dist"
   },
   "dependencies": {
+    "firebase": "^12.1.0",
     "miragejs": "^0.1.48",
     "react": "18.2.0",
     "react-dom": "18.2.0",
